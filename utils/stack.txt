@@ -1,0 +1,14 @@
+
+---------
+segundos
+---------
+nanosegundos
+---------
+ebp
+---------
+ret
+---------
+args
+
+
+gcc -c variables1.c -m32 -fno-dwarf2-cfi-asm -fno-exceptions -S -fno-asynchronous-unwind-tables -masm=intel
